@@ -14,10 +14,10 @@
 <a href="https://gitter.im/SetBased/php-abc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/SetBased/php-abc.svg" alt="Gitter"/></a>
 </td>
 <td>
-<a href="https://packagist.org/packages/setbased/php-abc-authority"><img src="https://poser.pugx.org/setbased/php-abc-authority/license" alt="License"/></a>
+<a href="https://packagist.org/packages/setbased/abc-authority"><img src="https://poser.pugx.org/setbased/abc-authority/license" alt="License"/></a>
 </td>
 <td>
-<a href="https://packagist.org/packages/setbased/php-abc-authority"><img src="https://poser.pugx.org/setbased/php-abc-authority/v/stable" alt="Latest Stable Version"/></a>
+<a href="https://packagist.org/packages/setbased/abc-authority"><img src="https://poser.pugx.org/setbased/abc-authority/v/stable" alt="Latest Stable Version"/></a>
 </td>
 </tr>
 </tbody>
