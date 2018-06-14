@@ -1,5 +1,5 @@
 <?php
-//----------------------------------------------------------------------------------------------------------------------
+
 namespace SetBased\Abc\Authority;
 
 /**
@@ -18,7 +18,7 @@ interface Authority
    * @since 1.0.0
    * @api
    */
-  public function hasAccessToPage($pagId);
+  public function hasAccessToPage(int $pagId): bool;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -27,10 +27,12 @@ interface Authority
    * @param int $usrId The ID of the user.
    * @param int $rolId The ID of the role.
    *
+   * @return void
+   *
    * @since 1.0.0
    * @api
    */
-  public function userGrantRole($usrId, $rolId);
+  public function userGrantRole(int $usrId, int $rolId): void;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -39,10 +41,12 @@ interface Authority
    * @param int $usrId The ID of the user.
    * @param int $rolId The ID of the role.
    *
+   * @return void
+   *
    * @since 1.0.0
    * @api
    */
-  public function userRevokeRole($usrId, $rolId);
+  public function userRevokeRole(int $usrId, int $rolId): void;
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
@@ -51,10 +55,12 @@ interface Authority
    * @param int $usrId The ID of the user.
    * @param int $rlgId The ID of the role group.
    *
+   * @return void
+   *
    * @since 1.0.0
    * @api
    */
-  public function userRevokeRoleGroup($usrId, $rlgId);
+  public function userRevokeRoleGroup(int $usrId, int $rlgId): void;
 
   //--------------------------------------------------------------------------------------------------------------------
 }
