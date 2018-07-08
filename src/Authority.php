@@ -36,6 +36,20 @@ interface Authority
 
   //--------------------------------------------------------------------------------------------------------------------
   /**
+   * Returns true if a user has access to a page.
+   *
+   * @param int $usrId The ID of the user.
+   * @param int $pagId The ID of the page.
+   *
+   * @return bool
+   *
+   * @since 1.0.0
+   * @api
+   */
+  public function userHasAccessToPage(int $usrId, int $pagId): bool;
+
+  //--------------------------------------------------------------------------------------------------------------------
+  /**
    * Revokes a role from a user.
    *
    * @param int $usrId The ID of the user.
