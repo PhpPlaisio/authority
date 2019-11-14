@@ -1,18 +1,17 @@
 {
-  "name": "setbased/abc-authority",
-  "description": "ABC-Framework: Authority",
+  "name": "plaisio/authority",
+  "description": "PhpPlaisio: Authority",
   "keywords": [
-    "ABC-Framework",
+    "PhpPlaisio",
     "Authority"
   ],
-  "type": "library",
   "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\Authority\\": "src/"
+      "Plaisio\\Authority\\": "src/"
     }
   }
 }

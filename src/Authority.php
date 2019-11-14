@@ -1,9 +1,10 @@
 <?php
+declare(strict_types=1);
 
-namespace SetBased\Abc\Authority;
+namespace Plaisio\Authority;
 
 /**
- * Interface for classes for requesting information about and granting and revoking authorization from/to users.
+ * Interface for requesting information about and granting and revoking authorization from/to users.
  */
 interface Authority
 {
