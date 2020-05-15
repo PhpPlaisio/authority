@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\Authority\Authority</type>
+            <name>authority</name>
+            <description>The helper object for authorization.</description>
+        </property>
+    </properties>
+</kernel>
